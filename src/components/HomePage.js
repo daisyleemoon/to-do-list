@@ -1,10 +1,11 @@
+import React from "react";
 import styled from "styled-components";
 
 const HomePageDiv = styled.div`
   display: flex;
   flex-direction: column;
   width: 60%;
-  height: 800px;
+  min-height: 300px;
   margin-top: 50px;
   background-color: #a892ee;
   border-radius: 12px;
